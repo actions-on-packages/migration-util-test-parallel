@@ -20,4 +20,4 @@ jobs:
           pwd
           ls -ltr ./
           ls -ltr ./scripts/
-          bash ./scripts/trigger_n_loads.sh 1000 '${{ github.token }}' 'https://api.github.com/repos/actions-on-packages/migration-util-test/dispatches'
+          bash ./scripts/trigger_n_loads.sh 1000 '${{ github.token }}' 'https://api.github.com/repos/actions-on-packages/migration-util-test-parallel/dispatches'
