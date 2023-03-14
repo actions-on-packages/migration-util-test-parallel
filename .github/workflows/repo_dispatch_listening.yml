@@ -12,4 +12,4 @@ jobs:
     runs-on: macos-latest
     steps:
        - name: Migration Util Test
-         uses: actions-on-packages/migration-util-test@0.0.1
+         uses: actions-on-packages/migration-util-test@0.0.2
