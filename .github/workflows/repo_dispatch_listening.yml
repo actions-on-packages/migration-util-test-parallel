@@ -1,0 +1,15 @@
+# This is a basic workflow to help you get started with Actions
+
+name: AOP Repos Dispatch listening
+
+on:
+  repository_dispatch:
+    types: [aop-test-trigger]
+  workflow_dispatch:
+
+jobs:
+  build: # make sure build/ci work properly
+    runs-on: macos-latest
+    steps:
+       - name: Non Semver Repo
+         uses: actions-on-packages/migration-util-test@2.0.0
