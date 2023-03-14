@@ -14,4 +14,4 @@ jobs:
        - name: Sample Ts Action
          uses: actions-on-packages/sample-ts-action@0.0.1
          with:
-            milliseconds: 100
+            milliseconds: 1
