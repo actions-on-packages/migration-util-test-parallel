@@ -11,5 +11,6 @@ jobs:
   build: # make sure build/ci work properly
     runs-on: macos-latest
     steps:
-       - name: Migration Util Test
-         uses: actions-on-packages/migration-util-test@0.0.2
+       - name: Sample Ts Action
+         uses: actions-on-packages/sample-ts-action@0.0.1
+
